@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  text-align: center;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+    </style>
+</head>
+<body>
+    <div id="main-bg" style="background-image: url(img/2.png); background-size: cover; width: 100%;     background-repeat: no-repeat; height: 120vh;    "> 
+
+
+    <header id="header">
+        <nav id="nav">
+            <div id="left">
+                <h1><span id="logo"><i class="fa-solid fa-utensils"></i></span></h1><h1><a href="index.html" style="   color: rgb(243, 166, 45);
+                  ">Restoran</a></h1>
+              </div>
+        <div id="right">
+            <a href="index.html">Home</a>
+            <a href="about.html" style="color: white;">About</a>
+            <a href="contact.html" style="color: white;">Contact</a>
+        
+        <button>Book Table</button>
+        
+        </div>
+        
+        </nav>
+          </header>    
+
+
+          <div class="contact-container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        
+</body>
+</html>
